@@ -4,5 +4,5 @@
 vim.api.nvim_create_autocmd("BufNewFile", {
   pattern = "*.html",
   group = vim.api.nvim_create_augroup("skelly", { clear = true }),
-  command = "0r ~/.config/nvim/templates/html.html",
+  command = "0r ~/.config/nvim/lua/templates/template.html",
 })
