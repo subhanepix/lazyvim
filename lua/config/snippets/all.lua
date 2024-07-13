@@ -11,16 +11,7 @@ ls.add_snippets("lua", {
 
 ls.add_snippets("html", {
   s("skelly", {
-    t(
-      "<!DOCTYPE html>",
-      '<html lang="en">',
-      "<head>",
-      '  <meta charset="UTF-8">',
-      "  <title></title>",
-      "</head>",
-      "<body>",
-      "</body>",
-      "</html>"
-    ),
+    t({ "<!DOCTYPE html>", "<html lang=\"en\">", "<head>", "  <meta charset=\"UTF-8\">", "  <title></title>", "</head>",
+      "<body>", "</body>", "</html>" }),
   }),
 })
