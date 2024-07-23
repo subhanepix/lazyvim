@@ -1,2 +1,2 @@
 require("config.lazy")
-vim.env.PATH = vim.env.PATH .. ':/usr/bin'
+vim.env.PATH = vim.env.PATH .. ":/usr/bin"

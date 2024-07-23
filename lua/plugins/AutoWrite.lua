@@ -1,0 +1,5 @@
+return {
+  {
+    "beauwilliams/autowrite.vim",
+  },
+}
